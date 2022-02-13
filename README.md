@@ -1,7 +1,7 @@
 # BGC-ARGO_analysis (under construction)
 
 This repo is used to download and analyze BGC-ARGO data focusing on adjusted dissolved oxyen data (DOXY_ADJUSTED)
-There are necessary support files that cannot be included in this repo due to its size. They are available here[dropbox](https://www.dropbox.com/sh/a2cirn8b2ua012a/AABKWmT-sfaxv9DP4SiPNV7Ua?dl=0)
+There are necessary support files that cannot be included in this repo due to its size. They are available here  [dropbox](https://www.dropbox.com/sh/a2cirn8b2ua012a/AABKWmT-sfaxv9DP4SiPNV7Ua?dl=0)
 
 - 1. Download 'synthetic profiles' netCDF file from Coriolis GDAC ftp site. [search_bgcargo.ipynb](https://github.com/takaito1/BGC-ARGO_analysis/blob/main/search_bgcargo.ipynb)
 - 2. Scan 'oxygen calibration comments' and examine what calibration methods are used for delayed-mode data quality control. Group profiling floats according to the dominant calibration method [oxy_calibration_groups.ipynb](https://github.com/takaito1/BGC-ARGO_analysis/blob/main/oxy_calibration_groups.ipynb)
